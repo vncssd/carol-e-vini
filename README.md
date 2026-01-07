@@ -31,7 +31,7 @@ Execute estes comandos no terminal dentro da pasta do seu projeto:
 git status
 
 # 2. Prepara os arquivos para o salvamento
-git add . ou git add "nome do arquivo"
+git add . ou git add <nome do arquivo>
 
 # 3. Cria a versão com uma descrição do que foi feito
 git commit -m "Adiciona exercício de lógica da semana 01"
@@ -40,4 +40,7 @@ git commit -m "Adiciona exercício de lógica da semana 01"
 git push origin main ou git push
 
 # 5. Atualiza as mudanças do repositório remoto para o repositório local (GitHub para máquina)
-git pull 
+git pull
+
+# 6. Clona um repositório remoto (GitHub) para a máquina
+git clone <link do repositório>
